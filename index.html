@@ -42,11 +42,11 @@
           <a class="nav-link js-scroll-trigger" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
         </li>        
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+        </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#education">Education</a>
         </li>
@@ -57,7 +57,7 @@
           <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+          <a class="nav-link js-scroll-trigger" href="#certifications">Certifications</a>
         </li>
       </ul>
     </div>
@@ -88,6 +88,48 @@
           <a href="#">
             <i class="fab fa-facebook-f"></i>
           </a> -->
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="projects">
+      <div class="w-100">
+        <h2 class="mb-5">Projects</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-3">Chirp</h3>
+            <div>
+              <p>My team is currently developing a website that will allow users to view the historical and current sentiment of a specific company. The data will be provided by Twitter's Streaming API and will be analyzed using the npm package "sentiment". More to come as we continue to build our product!</p>
+            </div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Current</span>
+          </div>
+        </div>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-3">Distributed Smart Home System</h3>
+            <div>
+              <p>Our team built a smart home system to identify a specific person and perform a user-specified task (i.e. begin playing Netflix) based on data stored in Firebase. As the lead developer, I designed the architecture of the system, managed our weekly scrums, and led the demo with the academic panel. From a development perspective, I wrote the code to detect movement with infrared sensors, capture images with a Raspberry Pi camera, and send the images to our backend API. Additionally, I acted as the DevOps Engineer and wrote the Bash scripts to send all of the data through SSH connections.</p>
+            </div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Fall 2018</span>
+          </div>
+        </div>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-3">GEDCOM Genealogy Software</h3>
+            <div>
+              <p>Our team created software to detect errors and anomalies in genealogy data. I wrote the code to parse, organize, and store the genealogy data into a dictionary. Additionally, I personally implemented 9 use cases over the course of 8 weeks and our team completed all 34 expected use cases with unit tests by the end of the term. </p>
+            </div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Fall 2018</span>
+          </div>
         </div>
       </div>
     </section>
@@ -244,48 +286,6 @@
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="projects">
-      <div class="w-100">
-        <h2 class="mb-5">Projects</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-3">Chirp</h3>
-            <div>
-              <p>My team is currently developing a website that will allow users to view the historical and current sentiment about a specific company. The data will be provided by Twitter's Streaming API and will be analyzed using the npm package "sentiment". More to come as we comtinue to build our product!</p>
-            </div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Current</span>
-          </div>
-        </div>
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-3">Distributed Smart Home System</h3>
-            <div>
-              <p>Our team built a smart home system to identify a specific person and perform a user-specified task (i.e. begin playing Netflix) based on data stored in Firebase. As the lead developer, I designed the architecture of the system, managed our weekly scrums, and led the demo with the academic panel. From a development perspective, I wrote the code to detect movement with infrared sensors, capture images with a Raspberry Pi camera, and send the images to our backend API. Additionally, I acted as the DevOps Engineer and wrote the Bash scripts to send all of the data through SSH connections.</p>
-            </div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Fall 2018</span>
-          </div>
-        </div>
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-3">GEDCOM Genealogy Software</h3>
-            <div>
-              <p>Our team created software to detect errors and anomalies in genealogy data. I wrote the code to parse, organize, and store the genealogy data into a dictionary. Additionally, I personally implemented 9 use cases over the course of 8 weeks and our team completed all 34 expected use cases with unit tests by the end of the term. </p>
-            </div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Fall 2018</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <hr class="m-0">
-
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
       <div class="w-100">
         <h2 class="mb-5">Education</h2>
@@ -340,13 +340,13 @@
             <span title="CSS"><i class="fab fa-css3-alt"></i></span>
           </li>
           <li class="list-inline-item">
-            <span title="NPM"><i class="fab fa-npm"></i></span>
+            <span title="npm"><i class="fab fa-npm"></i></span>
           </li>
           <li class="list-inline-item">
             <span title="Drupal"><i class="fab fa-drupal"></i></span>
           </li>
           <li class="list-inline-item">
-            <span title="SQL/NoSQL3"><i class="fas fa-database"></i></span>
+            <span title="SQL/NoSQL"><i class="fas fa-database"></i></span>
           </li>
         </ul>
 
@@ -386,7 +386,7 @@
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="certifications">
       <div class="w-100">
         <h2 class="mb-5">Certifications &amp; Accomplishments</h2>
         <ul class="fa-ul mb-0">
